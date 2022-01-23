@@ -1,0 +1,21 @@
+package testeEstagio;
+
+public class teste2 {
+
+	public static void main(String[] args) {
+		   
+		      int p, n, s;
+		      p = 2749;
+		      n = 8;
+		      s = 50;
+		      long pessoas = p/n;
+		      int resultado = (int)Math.round(pessoas);
+		      resultado *= s;
+		      long minuto = resultado;
+		      minuto = Math.round(minuto/60*100);
+		      minuto/= 100;
+		      minuto = Math.round(minuto);
+		      System.out.println(minuto);
+		    
+		    }
+}
